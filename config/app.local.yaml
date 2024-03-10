@@ -1,0 +1,14 @@
+dataEnv: "local"
+
+DatabaseSettings:
+  DatabaseURI: "root:root@tcp(127.0.0.1:3306)/picus_shop?parseTime=true"
+  DatabaseName: "LOCALpicus_shop"
+  Username: "LOCALroot"
+  Password: "LOCALroot"
+
+JwtSettings:
+  SecretKey: "eJvmi7U05ewpxTzd1Nf2IXUyu4rrNbDj"
+
+RedisSettings:
+  AddrURI: "localhost:6379"
+
