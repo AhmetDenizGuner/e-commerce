@@ -13,7 +13,6 @@ func main() {
 	r := gin.Default()
 	api.RegisterHandlers(r)
 
-	//test comment
 	srv := http.Server{
 		Addr:    ":8080",
 		Handler: r,
